@@ -17,7 +17,7 @@ use UIoT\model\UIoTToken;
 
 /**
  * Class RequestInput
- * @package UIoT\util
+ * @package UIoTRaiseTests\util
  */
 class RequestInput
 {

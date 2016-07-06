@@ -6,7 +6,7 @@ use stdClass;
 
 /**
  * Class JsonOutput
- * @package UIoT\util
+ * @package UIoTRaiseTests\util
  */
 final class JsonOutput
 {

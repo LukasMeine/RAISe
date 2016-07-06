@@ -39,27 +39,15 @@
   ],
   "homepage": "https://uiot.org",
   "minimum-stability": "dev",
-  "repositories": [
-    {
-      "url": "https://github.com/sebastianbergmann/phpunit.git",
-      "type": "git"
-    },
-    {
-      "url": "https://github.com/symfony/http-foundation.git",
-      "type": "git"
-    },
-    {
-      "url": "https://github.com/jwage/purl.git",
-      "type": "git"
-    }
-  ],
-  "require": {
-    "symfony/http-foundation": "master",
-    "jwage/purl": "master"
-  },
   "autoload": {
     "classmap": [
-      "UIoT/"
+      "UIoTRaiseTests/"
     ]
+  },
+  "require": {
+    "nategood/httpful": "^0.2.20",
+    "jwage/purl": "^0.0.7",
+    "symfony/http-foundation": "^3.1",
+    "phpunit/phpunit": "^5.4"
   }
 }

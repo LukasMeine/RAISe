@@ -4,7 +4,7 @@ namespace UIoT\util;
 
 /**
  * Class RaiseStatus
- * @package UIoT\util
+ * @package UIoTRaiseTests\util
  */
 class RaiseStatus
 {

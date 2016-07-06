@@ -1,7 +1,7 @@
 <?php
 
 /**
- * UIoT Service Layer
+ * UIoTRaiseTests Service Layer
  * @version dev-alpha
  *                          88
  *                          ""              ,d
@@ -13,9 +13,9 @@
  *               `"YbbdP'Y8 88  `"YbbdP"'   "Y888
  *
  * @project Uniform Internet of Things
- * @app UIoT Service Layer Manager
+ * @app UIoTRaiseTests Service Layer Manager
  *
- * @author UIoT
+ * @author UIoTRaiseTests
  * @developer Álex Vidigal
  * @developer Caio Melo
  * @developer Claudio Santoro
@@ -26,14 +26,11 @@
  */
 
 if (!file_exists(__DIR__ . '/vendor/autoload.php')) {
-    throw new RuntimeException('UIoT Service Layer Manager requires Composer to run. You can get it <a href="http://gsetcomposer.org">here</a>.');
+    throw new RuntimeException('UIoTRaiseTests Service Layer Tests Manager requires Composer to run. You can get it <a href="http://gsetcomposer.org">here</a>.');
 }
 
 include_once(__DIR__ . '/vendor/autoload.php');
 
-use UIoT\util\JsonOutput;
-use UIoT\util\RequestInput;
+use UIoTRaiseTestes\systemTests\TestManager;
 
-header("Content-Type: application/json");
-
-echo JsonOutput::showJson((new RequestInput)->route());
+$testManager = new TestManager();

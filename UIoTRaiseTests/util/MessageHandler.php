@@ -8,7 +8,7 @@ use UIoT\model\UIoTSingleton;
 
 /**
  * Class MessageHandler
- * @package UIoT\util
+ * @package UIoTRaiseTests\util
  */
 class MessageHandler extends UIoTSingleton
 {
