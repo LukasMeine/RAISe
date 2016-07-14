@@ -1,53 +1,12 @@
 {
-  "name": "uiot/middleware_mc_srvcl_rest_raise",
-  "description": "middleware_mc_srvcl_rest_raise",
-  "type": "project",
-  "license": "GPL-3.0+",
-  "authors": [
-    {
-      "name": "Caio Melo",
-      "email": "caio.silva@redes.unb.br"
-    },
-    {
-      "name": "Alex Vidigal",
-      "email": "alex.chaves@redes.unb.br"
-    },
-    {
-      "name": "Pedro Luiz Salgado",
-      "email": "pedro.luiz@redes.unb.br"
+    "name": "root/raise-tests_v1",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "alex.chaves@redes.unb.br"
+        }
+    ],
+    "require": {
+        "nategood/httpful": "*"
     }
-  ],
-  "keywords": [
-    "library",
-    "iot",
-    "uiot",
-    "internet-of-things",
-    "middleware",
-    "open-source",
-    "guessing",
-    "self-prentice",
-    "microsoft",
-    "university-of-brasilia",
-    "unb",
-    "latitude",
-    "genetic-algorithm",
-    "big-data",
-    "bigdata",
-    "php",
-    "cms",
-    "database"
-  ],
-  "homepage": "https://uiot.org",
-  "minimum-stability": "dev",
-  "autoload": {
-    "classmap": [
-      "UIoTRaiseTests/"
-    ]
-  },
-  "require": {
-    "nategood/httpful": "^0.2.20",
-    "jwage/purl": "^0.0.7",
-    "symfony/http-foundation": "^3.1",
-    "phpunit/phpunit": "^5.4"
-  }
 }
