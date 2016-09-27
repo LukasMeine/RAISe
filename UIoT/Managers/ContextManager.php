@@ -10,5 +10,38 @@
 */
 class ContextManager 
 {
-	
+	private function setExpirationTime(/* Timestamp */)
+	{
+
+	}
+
+	private function getConnectionTime()
+	{
+
+	}
+
+	private function getFishyCount()
+	{
+
+	}
+
+	private function incrementFishyCount()
+	{
+
+	}
+
+	private function getRequestFrequency()
+	{
+
+	}
+
+	private function getConstancy()
+	{
+
+	}
+
+	private function getCompleteness()
+	{
+		
+	}
 }
