@@ -1,5 +1,5 @@
 <?php
-class SecurityManager 
+class SecurityController 
 {
 	
 	public funtion validate(Request request)
